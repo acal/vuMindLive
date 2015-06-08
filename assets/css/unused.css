@@ -1,0 +1,75 @@
+.carousel-indicators {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.contact-items, .contact-items > input {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+  padding-left: 0;
+}
+
+.btn-p1 {
+    margin: 0;
+    width: 40%;
+    padding: 20px 20px;
+    position: relative;
+    right: 20px;
+    white-space: normal;
+  }
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+.carousel-caption {
+  position: absolute;
+  right: 10%;
+  bottom: 20px;
+  left: 10%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  p {
+  margin: 0 ;
+  }
+}
+@media (max-width: 990px) {
+  .slideText{
+     p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  }
+}
+@media (max-width: 479px) {
+  .slideText{
+     p {
+    font-size: 10px;
+    line-height: 1;
+  }
+  }
+}
+
+.slideText {
+font-family: 'Lato', sans-sarif;
+font-size: 18px;
+color: #FFFFFF;
+line-height: 20px;
+text-align: left;
+}

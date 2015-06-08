@@ -1,0 +1,313 @@
+@import 'partials/variables'; // colors, fonts etc...
+@import 'partials/mixins'; // custom mixins
+@import 'partials/layout'; // responsive grid and media queries
+
+@import url(//fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+position: relative;
+background: #FFFFFF;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 18px;
+color: $color-4;
+line-height: 22px;
+ 
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.h2 {
+  margin-top: 10px;
+}
+.lato-reg{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.lato-light{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+p {
+  font-size: 16px;
+}
+.row {
+  diplay: inline;
+
+}
+.row img {
+  margin-bottom: 15px;
+}
+.indent {
+  margin-left: 15px;
+}
+section {
+  min-height: 100%;
+  min-height: calc(100% - 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.main-content {
+	/* you need to assign a min-height to the main content so that the children can inherit it*/
+	height: 100%;
+	position: relative;
+	z-index: index($main-elements, main-content); // see partials > _variables.scss
+}
+// Navbar //
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: $color-5;
+  height: 90px;
+}
+.navbar-right {
+  position: relative;
+  top: 20px;
+  margin-right: 15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border: none;
+background-color: #FFF;
+}
+.navbar-toggle {
+  margin-top: 20px;
+}
+.headerLogo {
+  position: relative;
+  margin: 10px 30px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $color-4;
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+}
+.navbar-brand, .navbar-header, .navbar-default {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* Custom Button */
+.btn-p1 {
+background: -webkit-linear-gradient(-180deg, $color-9 0%, $color-2 100%); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(-180deg, $color-9 0%, $color-2 100%); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(-180deg, $color-9 0%, $color-2 100%); /* For Firefox 3.6 to 15 */
+background: linear-gradient(-180deg, #42C48E 0%, $color-2 100%); 
+background-image: linear-gradient(-180deg, #42C48E 0%, $color-2 100%);/* Standard syntax */
+border-radius: 8px;
+font-size: 18px;
+color: #FFFFFF;
+line-height: 22px;
+margin: 5px 15px 21px 15px;
+padding: 7px 28px 7px 28px;
+border: none;
+transition-duration: 0.3s;
+
+  .btn-p1:hover,
+  .btn-p1:focus,
+  .btn-p1.focus,
+  .btn-p1:active,
+  .btn-p1.active,
+  .open > .dropdown-toggle.btn-p1 {
+      color: #FFF;
+      background-color: #008b3f;
+      border-color: #adadad;
+      transition-duration: 0.3s;
+  }
+
+  .btn-p1:active,
+  .btn-p1.active,
+  .open > .dropdown-toggle.btn-p1 {
+      background-image: none;
+      transition-duration: 0.3s;
+  }
+}
+/* END CUSTOM BUTTON*/
+
+/* Hero Image Overlay */
+.hero-bg {
+  background-image: image-url("headphones_large.png");
+  height: 500px;
+  position: relative;
+	min-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: index($bg-elements, fixed-bg); // see partials > _variables.scss
+
+  @media (max-width: 600px) {
+     background-image: image-url("headphones_small.jpg");
+     height: 500px;
+  }
+}
+.hero-text {
+  background: rgba(255,255,255,0.77);
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  color: $color-1;
+  line-height: 44px;
+  padding: 25px 0;
+  position: relative;
+  top: 200px;
+  
+  @media screen and (max-width: 768px){
+    font-size: 26px;
+  }
+  @media (max-width: 580px) {
+     font-size: 24px;
+     top: 150px;
+     margin-left: 5px;
+     margin-right: 5px;
+     h1 {
+       margin-left: 5px;
+     margin-right: 5px;
+     }
+  }
+}
+.hero-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 140px;
+  @media screen and (max-width: 600px) {
+     top: 100px;
+  }
+}
+/* Program Section */
+.bluePanel {
+  background: $color-1;
+  border: 1px solid $color-8;
+  padding: 10px 0 10px 0;
+  margin: 0;
+  position: relative;
+  text-align: justify;
+  
+  h2, p, ul, {
+    color: #FFFFFF;
+    margin: 15px 15px;
+    padding: 5px 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+  ul li {
+    list-style-type: none;
+    text-indent: 10px;
+    font-size: 16px;
+  }
+  ul li:before { 
+    content:"-";
+    position: relative;
+    left: -5px;
+  }
+  input {
+    margin-left: 15px;
+    width: 50%;
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+  .btn-p1 {
+    width: 40%;
+    padding: 15px;
+    white-space: normal;
+  }
+  img {
+    z-index: 1;}
+}
+.button-contact.btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Global panel section sep */
+.blueSep {
+background: $color-1;
+border: 1px solid $color-8;
+padding: 40px 0 20px 0;
+margin: 15px 0;
+
+  h1, h2 {
+  font-size: 32px;
+  color: #FFFFFF;
+  @media (max-width: 380px) {
+     font-size: 24px;
+       margin-left: 5px;
+     margin-right: 5px;
+     }
+  }
+margin-bottom: 30px;
+}
+/* Global icon style */
+.org {
+  margin: 0 0 5px 0;
+  padding: 0 0 0 0;
+  
+}
+.org-thumbs img {
+  display: inline;
+  padding: 10px 10px 0 0;
+  
+  img:last-child {
+    padding-right: 0;
+  }
+}
+/* Benefits section */
+.quotes p {
+  padding: 0 30px 0 14px;
+  font-size: 80%;
+  line-height: 20px;
+  text-align: justify;
+  color: $color-2;
+}
+
+/*Performance sub-section */
+.benDayVideo {
+  img, a, p {
+    display: block;
+    margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.videoMods {
+  .col-xs-4 img {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .col-xs-4:first-child img {
+    margin-left: 0;
+    padding-left: 0;
+  }
+.col-xs-4:last-child img {
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+/* Who we are section */
+.plainHeader {
+  padding: 14px 20px;
+}
+/* Footer section styles */
+footer {
+  background-color: $color-7;
+  color: $color-5;
+  min-height: 100px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  .nav > li > a {
+    padding: 3px;
+    color: $color-3;
+    &:hover, &:active, &:focus {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+}
+
+

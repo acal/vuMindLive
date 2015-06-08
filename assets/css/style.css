@@ -1,0 +1,382 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300,400);
+/* line 7, ../compass/sass/style.scss */
+body {
+  position: relative;
+  background: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #4b4b4b;
+  line-height: 22px;
+}
+
+/* line 17, ../compass/sass/style.scss */
+.h1, .h2, .h3, h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+/* line 23, ../compass/sass/style.scss */
+.h2 {
+  margin-top: 10px;
+}
+
+/* line 26, ../compass/sass/style.scss */
+.lato-reg {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/* line 31, ../compass/sass/style.scss */
+.lato-light {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+/* line 35, ../compass/sass/style.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 38, ../compass/sass/style.scss */
+.row {
+  diplay: inline;
+}
+
+/* line 42, ../compass/sass/style.scss */
+.row img {
+  margin-bottom: 15px;
+}
+
+/* line 45, ../compass/sass/style.scss */
+.indent {
+  margin-left: 15px;
+}
+
+/* line 48, ../compass/sass/style.scss */
+section {
+  min-height: 100%;
+  min-height: calc(100% - 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 55, ../compass/sass/style.scss */
+.main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 63, ../compass/sass/style.scss */
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #dddddd;
+  height: 90px;
+}
+
+/* line 68, ../compass/sass/style.scss */
+.navbar-right {
+  position: relative;
+  top: 20px;
+  margin-right: 15px;
+}
+
+/* line 73, ../compass/sass/style.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+  background-color: #FFF;
+}
+
+/* line 77, ../compass/sass/style.scss */
+.navbar-toggle {
+  margin-top: 20px;
+}
+
+/* line 80, ../compass/sass/style.scss */
+.headerLogo {
+  position: relative;
+  margin: 10px 30px;
+}
+
+/* line 84, ../compass/sass/style.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #4b4b4b;
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+}
+
+/* line 90, ../compass/sass/style.scss */
+.navbar-brand, .navbar-header, .navbar-default {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* Custom Button */
+/* line 96, ../compass/sass/style.scss */
+.btn-p1 {
+  background: -webkit-linear-gradient(-180deg, #42C48E 0%, #3bad7e 100%);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-180deg, #42C48E 0%, #3bad7e 100%);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-180deg, #42C48E 0%, #3bad7e 100%);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-180deg, #42C48E 0%, #3bad7e 100%);
+  background-image: linear-gradient(-180deg, #42C48E 0%, #3bad7e 100%);
+  /* Standard syntax */
+  border-radius: 8px;
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 22px;
+  margin: 5px 15px 21px 15px;
+  padding: 7px 28px 7px 28px;
+  border: none;
+  transition-duration: 0.3s;
+}
+/* line 111, ../compass/sass/style.scss */
+.btn-p1 .btn-p1:hover,
+.btn-p1 .btn-p1:focus,
+.btn-p1 .btn-p1.focus,
+.btn-p1 .btn-p1:active,
+.btn-p1 .btn-p1.active,
+.btn-p1 .open > .dropdown-toggle.btn-p1 {
+  color: #FFF;
+  background-color: #008b3f;
+  border-color: #adadad;
+  transition-duration: 0.3s;
+}
+/* line 123, ../compass/sass/style.scss */
+.btn-p1 .btn-p1:active,
+.btn-p1 .btn-p1.active,
+.btn-p1 .open > .dropdown-toggle.btn-p1 {
+  background-image: none;
+  transition-duration: 0.3s;
+}
+
+/* END CUSTOM BUTTON*/
+/* Hero Image Overlay */
+/* line 133, ../compass/sass/style.scss */
+.hero-bg {
+  background-image: url('../images/headphones_large.png?1430418590');
+  height: 500px;
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  /* line 133, ../compass/sass/style.scss */
+  .hero-bg {
+    background-image: url('../images/headphones_small.jpg?1432229386');
+    height: 500px;
+  }
+}
+
+/* line 148, ../compass/sass/style.scss */
+.hero-text {
+  background: rgba(255, 255, 255, 0.77);
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  color: #2895F6;
+  line-height: 44px;
+  padding: 25px 0;
+  position: relative;
+  top: 200px;
+}
+@media screen and (max-width: 768px) {
+  /* line 148, ../compass/sass/style.scss */
+  .hero-text {
+    font-size: 26px;
+  }
+}
+@media (max-width: 580px) {
+  /* line 148, ../compass/sass/style.scss */
+  .hero-text {
+    font-size: 24px;
+    top: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  /* line 166, ../compass/sass/style.scss */
+  .hero-text h1 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+/* line 172, ../compass/sass/style.scss */
+.hero-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 140px;
+}
+@media screen and (max-width: 600px) {
+  /* line 172, ../compass/sass/style.scss */
+  .hero-logo {
+    top: 100px;
+  }
+}
+
+/* Program Section */
+/* line 183, ../compass/sass/style.scss */
+.bluePanel {
+  background: #2895F6;
+  border: 1px solid #979797;
+  padding: 10px 0 10px 0;
+  margin: 0;
+  position: relative;
+  text-align: justify;
+}
+/* line 191, ../compass/sass/style.scss */
+.bluePanel h2, .bluePanel p, .bluePanel ul {
+  color: #FFFFFF;
+  margin: 15px 15px;
+  padding: 5px 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+/* line 198, ../compass/sass/style.scss */
+.bluePanel ul li {
+  list-style-type: none;
+  text-indent: 10px;
+  font-size: 16px;
+}
+/* line 203, ../compass/sass/style.scss */
+.bluePanel ul li:before {
+  content: "-";
+  position: relative;
+  left: -5px;
+}
+/* line 208, ../compass/sass/style.scss */
+.bluePanel input {
+  margin-left: 15px;
+  width: 50%;
+  display: inline;
+  margin: 0 0 0 15px;
+}
+/* line 214, ../compass/sass/style.scss */
+.bluePanel .btn-p1 {
+  width: 40%;
+  padding: 15px;
+  white-space: normal;
+}
+/* line 219, ../compass/sass/style.scss */
+.bluePanel img {
+  z-index: 1;
+}
+
+/* line 222, ../compass/sass/style.scss */
+.button-contact.btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Global panel section sep */
+/* line 228, ../compass/sass/style.scss */
+.blueSep {
+  background: #2895F6;
+  border: 1px solid #979797;
+  padding: 40px 0 20px 0;
+  margin: 15px 0;
+  margin-bottom: 30px;
+}
+/* line 234, ../compass/sass/style.scss */
+.blueSep h1, .blueSep h2 {
+  font-size: 32px;
+  color: #FFFFFF;
+}
+@media (max-width: 380px) {
+  /* line 234, ../compass/sass/style.scss */
+  .blueSep h1, .blueSep h2 {
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+/* Global icon style */
+/* line 246, ../compass/sass/style.scss */
+.org {
+  margin: 0 0 5px 0;
+  padding: 0 0 0 0;
+}
+
+/* line 251, ../compass/sass/style.scss */
+.org-thumbs img {
+  display: inline;
+  padding: 10px 10px 0 0;
+}
+/* line 255, ../compass/sass/style.scss */
+.org-thumbs img img:last-child {
+  padding-right: 0;
+}
+
+/* Benefits section */
+/* line 260, ../compass/sass/style.scss */
+.quotes p {
+  padding: 0 30px 0 14px;
+  font-size: 80%;
+  line-height: 20px;
+  text-align: justify;
+  color: #3bad7e;
+}
+
+/*Performance sub-section */
+/* line 270, ../compass/sass/style.scss */
+.benDayVideo img, .benDayVideo a, .benDayVideo p {
+  display: block;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 278, ../compass/sass/style.scss */
+.videoMods .col-xs-4 img {
+  padding-left: auto;
+  padding-right: auto;
+}
+/* line 282, ../compass/sass/style.scss */
+.videoMods .col-xs-4:first-child img {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 286, ../compass/sass/style.scss */
+.videoMods .col-xs-4:last-child img {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* Who we are section */
+/* line 293, ../compass/sass/style.scss */
+.plainHeader {
+  padding: 14px 20px;
+}
+
+/* Footer section styles */
+/* line 297, ../compass/sass/style.scss */
+footer {
+  background-color: #2b2b2b;
+  color: #dddddd;
+  min-height: 100px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+/* line 303, ../compass/sass/style.scss */
+footer .nav > li > a {
+  padding: 3px;
+  color: #f78103;
+}
+/* line 306, ../compass/sass/style.scss */
+footer .nav > li > a:hover, footer .nav > li > a:active, footer .nav > li > a:focus {
+  background-color: transparent;
+  color: #fff;
+}
