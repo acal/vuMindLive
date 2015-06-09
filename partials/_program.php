@@ -36,16 +36,9 @@
                         <li>Level 3 : Space Dynamics - Sustain mindfulness in the real-world</li>
                     </ul>
                     <div class="text-center">
-                    <button class="btn btn-p1">Get Notified</button></div>
-         <!--       <div class="bluePanelForm">
-                     <form>
-                        <input type="email" class="form-control" 
-                        name="Email notification" placeholder="Email"/>
-                        <button class="btn btn-p1">Get Notified</button>
-                    </form> 
-                </div> -->
-             </div>
-           </div>
+                        <?php require('partials/_button1.php') ?>
+                    </div>
+               </div>
         </div> 
     </div>
  </div>

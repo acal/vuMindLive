@@ -11,6 +11,9 @@
             require('partials/_nav.php')
         ?>
     </div>
+        <?php 
+            require_once('partials/_mailer.php')
+        ?>
 
 <main class="main-content">
     <?php 

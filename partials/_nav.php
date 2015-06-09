@@ -18,7 +18,7 @@
                 <li class=""><a data-toggle="collapse" data-target=".navbar-collapse" href="#section1">Program</a></li>
                 <li class=""><a data-toggle="collapse" data-target=".navbar-collapse" href="#section2">Benefits</a></li>
                 <li class=""><a data-toggle="collapse" data-target=".navbar-collapse" href="#section3">Who we are</a></li>
-                <li><button type="button" class="btn btn-p1" data-toggle="collapse" data-target=".navbar-collapse">Get Notified</button></li>
+                <li class=""><?php require('partials/_button1.php') ?></li>
             </ul>
         </div>
     </nav>
