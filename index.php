@@ -2,6 +2,7 @@
     require('partials/_head.php')
     ?>
 <body data-spy="scroll" data-target="#myScrollspy">
+    
     <?php 
         require('partials/_tagManager.php')
     ?>
@@ -33,6 +34,7 @@
         require('partials/_about.php')
     ?>
      <br><br>
+     <?php include_once('partials/_social.php') ?>
 </main>
     <?php
         require('partials/_footer.php')
