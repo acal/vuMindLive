@@ -8,7 +8,7 @@
                         <li><a href="index.php#program">The Program</a></li>
                         <li><a href="index.php#benefits">Benefits</a></li>
                         <li><a href="index.php#about">Who we are</a></li>
-                        <li><a href="#search">Search this site</a></li>
+                        <li><a href="searchResult.php">Search this site</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-4">

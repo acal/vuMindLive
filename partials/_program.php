@@ -10,12 +10,8 @@
     <div class="container">
      <div class="row">
          <div class="col-xs-12 col-sm-6 pull-right videoMods">
-            <img src="assets/images/program/introPlayer.png" class="img-responsive" alt="Intro to Amplified Mind Performance meditation for active people" width="550" height="396">
-             <div class="row">
-                 <div class="col-xs-4"><img src="assets/images/program/level1.png" class="img-responsive" alt="Body Dynamics Level 1" width="393" height="282"></div>
-                 <div class="col-xs-4"><img src="assets/images/program/level2.png" class="img-responsive" alt="Mind Dynamics Level 2" width="393" height="282"></div>
-                 <div class="col-xs-4"><img src="assets/images/program/level3.png" class="img-responsive" alt="Space Dynamics Level 3" width="393" height="282"></div>
-             </div>
+            <img src="assets/images/video/VideoComponents.png" class="img-responsive" alt="Intro to Amplified Mind Performance meditation for active people" width="550" height="396">
+             
          </div>
              
          <div class="col-xs-12 col-sm-6">

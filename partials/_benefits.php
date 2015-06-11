@@ -128,13 +128,11 @@
             personal situation no matter how the cards fall. You have to play the hand your 
             dealt and vuMind gets you the best seat at the table.</p>
             <div class="quotes">
-                <p>"Throughout my deployment I encountered many stressors that I have never faced 
-                before...I practiced AMP exercises daily to keep me on an even keel, especially 
-                while dealing with the multiple stressors associated with a combat mission. 
-                Everyday before we rolled out into Afghan villages I completed roughly 20 minutes 
-                [of training] to sharpen my mental focus, insure my nervous system was on point and 
-                to prepare me for any situation."</p>
-                <p><em>- USAF SWAT Team Commander</em></p>
+                <p>"vuMind gave me the tools that served as a monumental change for my mental 
+                awareness and ability to focus while competing as a Slopestyle skier.  The results came immediately 
+                being ranked 14th Slopestyle Skier in the world soon after I completed their training program.  
+                Truly a life changing experience."</p>
+                <p><em>- Kolby Ward, Professional skier</em></p>
             </div>
          </div>
     </div>
@@ -156,7 +154,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="thumbnail col-xs-4 col-xs-offset-4">
+        <div class="thumbnail col-xs-6 col-xs-offset-3">
             <a href="https://youtu.be/cPgAFUwRKRE" class="benDayVideo" target="_blank">
                   <img src="assets/images/performance/bendayThumb.jpg" class="img-responsive" alt="Ben Day pro cyclist on value of mindfulness" width="120" height="90">
             </a>

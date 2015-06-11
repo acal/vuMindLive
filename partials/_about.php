@@ -8,14 +8,16 @@
         </div>
     </div>
  </div>
+ <div class="container-fluid">
     <div class="row">
         <h2 class="text-center plainHeader">Trainers</h2>
     </div>
     <div class="row">
         <img class="img-responsive" src="assets/images/Mark-Bill.png" alt="vuMind Traniners and Founders picture" width="1172" height="658">
     </div>
-    
-    <div class="row container">    
+  </div>
+  <div class="container">
+    <div class="row">    
         <div class="col-xs-12 col-sm-6"><h2>Mark Williams, CEO</h2>
             <p>A former US Air Force F-15 pilot and long time practitioner of mindfulness, 
             Mark has spent over two decades focusing on brain and body dynamics. His knowledge 
@@ -30,4 +32,5 @@
             performance to the arena of athletic and business endeavors.</p>
         </div>
     </div>
+  </div>
 </section>

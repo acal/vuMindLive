@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js" prefix="og: http://ogp.me/ns#" />
+<html lang="en" class="no-js" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -8,7 +8,7 @@
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link rel="alternate" href="http://vumind.com/en" hreflang="en" />
     
-    <title>vuMind | A Mindful productive Life</title>
+    <title>vuMind | A Mindful, Productive Life</title>
     
     <meta name="description" content="vuMind Mediation for the active life style.  Mindfulness in everyday life." />
     <meta name="author" content="vuMind Inc" />

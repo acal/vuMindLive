@@ -1,12 +1,12 @@
-<section> 
+<section class="container-fluid"> 
         <div class="row">
-        <div class="hero-bg">
-            <img src="assets/images/logos/stackedIcon_02.png" class="hero-logo img-responsive" alt="vuMind Logo vertical stack" width="100" height="133">
-            <h1 class="container-fluid text-center hero-text">A meditation program for <em>active living</em>.</h1>
-        </div>
+            <div class="hero-bg">
+                <img src="assets/images/logos/stackedIcon_02.png" class="hero-logo img-responsive" alt="vuMind Logo vertical stack" width="100" height="133">
+                <h1 class="text-center hero-text">A meditation program for <em>active living</em>.</h1>
+            </div>
         </div>
         <br>
-    </section>
+</section>
 <br> <br> 
     <section class="container">
     <!-- Begin Train Brain Article -->
