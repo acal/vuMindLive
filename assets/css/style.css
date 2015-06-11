@@ -1,7 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Lato:300,400);
+/* line 6, ../compass/sass/style.scss */
 * {
-  outline: none; }
+  outline: none;
+}
 
+/* line 10, ../compass/sass/style.scss */
 body {
   position: relative;
   background: #FFFFFF;
@@ -9,82 +12,118 @@ body {
   font-weight: 300;
   font-size: 18px;
   color: #4b4b4b;
-  line-height: 22px; }
+  line-height: 22px;
+}
 
+/* line 20, ../compass/sass/style.scss */
 .h1, .h2, .h3, h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   margin-top: 0;
   margin-bottom: 10px;
-  line-height: 1; }
+  line-height: 1;
+}
 
+/* line 26, ../compass/sass/style.scss */
 .h2 {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
+/* line 29, ../compass/sass/style.scss */
 .lato-reg {
   font-family: 'Lato', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
+/* line 34, ../compass/sass/style.scss */
 .lato-light {
   font-family: 'Lato', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
+/* line 38, ../compass/sass/style.scss */
 p {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
+/* line 41, ../compass/sass/style.scss */
 .row {
-  diplay: inline; }
+  diplay: inline;
+}
 
+/* line 45, ../compass/sass/style.scss */
 .row img {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
+/* line 48, ../compass/sass/style.scss */
 .indent {
-  margin-left: 15px; }
+  margin-left: 15px;
+}
 
+/* line 51, ../compass/sass/style.scss */
 section {
   min-height: 100%;
   min-height: calc(100% - 0);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d; }
+  transform-style: preserve-3d;
+}
 
+/* line 58, ../compass/sass/style.scss */
 .main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
   height: 100%;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+}
 
+/* line 66, ../compass/sass/style.scss */
 .navbar-default {
   background-color: #ffffff;
   border-color: #dddddd;
-  height: 90px; }
+  height: 90px;
+}
 
+/* line 71, ../compass/sass/style.scss */
 .navbar-right {
   position: relative;
   top: 20px;
-  margin-right: 15px; }
+  margin-right: 15px;
+}
 
+/* line 76, ../compass/sass/style.scss */
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border: none;
-  background-color: #FFF; }
+  background-color: #FFF;
+}
 
+/* line 80, ../compass/sass/style.scss */
 .navbar-toggle {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
+/* line 83, ../compass/sass/style.scss */
 .headerLogo {
   position: relative;
-  margin: 10px 30px; }
+  margin: 10px 30px;
+}
 
+/* line 87, ../compass/sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #4b4b4b;
   position: relative;
   display: block;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+}
 
+/* line 93, ../compass/sass/style.scss */
 .navbar-brand, .navbar-header, .navbar-default {
   padding: 0 0 0 0;
-  margin: 0 0 0 0; }
+  margin: 0 0 0 0;
+}
 
 /* Custom Button */
+/* line 99, ../compass/sass/style.scss */
 .btn-p1 {
   background: -webkit-linear-gradient(-180deg, #42C48E 0%, #3bad7e 100%);
   /* For Safari 5.1 to 6.0 */
@@ -103,42 +142,53 @@ section {
   padding: 7px 28px 7px 28px;
   border: none;
   outline: none;
-  transition-duration: 0.3s; }
-  .btn-p1 .btn-p1:hover,
-  .btn-p1 .btn-p1:focus,
-  .btn-p1 .btn-p1.focus,
-  .btn-p1 .btn-p1:active,
-  .btn-p1 .btn-p1.active,
-  .btn-p1 .open > .dropdown-toggle.btn-p1 {
-    color: #FFF;
-    background-color: #008b3f;
-    outline: none;
-    border: none;
-    transition-duration: 0.3s; }
-  .btn-p1 .btn-p1:active,
-  .btn-p1 .btn-p1.active,
-  .btn-p1 .open > .dropdown-toggle.btn-p1 {
-    background-image: none;
-    transition-duration: 0.3s;
-    outline: none;
-    border: none; }
+  transition-duration: 0.3s;
+}
+/* line 116, ../compass/sass/style.scss */
+.btn-p1 .btn-p1:hover,
+.btn-p1 .btn-p1:focus,
+.btn-p1 .btn-p1.focus,
+.btn-p1 .btn-p1:active,
+.btn-p1 .btn-p1.active,
+.btn-p1 .open > .dropdown-toggle.btn-p1 {
+  color: #FFF;
+  background-color: #008b3f;
+  outline: none;
+  border: none;
+  transition-duration: 0.3s;
+}
+/* line 129, ../compass/sass/style.scss */
+.btn-p1 .btn-p1:active,
+.btn-p1 .btn-p1.active,
+.btn-p1 .open > .dropdown-toggle.btn-p1 {
+  background-image: none;
+  transition-duration: 0.3s;
+  outline: none;
+  border: none;
+}
 
 /* END CUSTOM BUTTON*/
 /* Hero Image Overlay */
+/* line 141, ../compass/sass/style.scss */
 .hero-bg {
-  background-image: image-url("headphones_large.png");
+  background-image: url('../images/headphones_large.png?1430418590');
   height: 500px;
   position: relative;
   min-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  z-index: 1; }
-  @media (max-width: 600px) {
-    .hero-bg {
-      background-image: image-url("headphones_small.jpg");
-      height: 500px; } }
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  /* line 141, ../compass/sass/style.scss */
+  .hero-bg {
+    background-image: url('../images/headphones_small.jpg?1432229386');
+    height: 500px;
+  }
+}
 
+/* line 156, ../compass/sass/style.scss */
 .hero-text {
   background: rgba(255, 255, 255, 0.77);
   font-family: 'Lato', sans-serif;
@@ -147,145 +197,210 @@ section {
   line-height: 44px;
   padding: 25px 0;
   position: relative;
-  top: 200px; }
-  @media screen and (max-width: 768px) {
-    .hero-text {
-      font-size: 26px; } }
-  @media (max-width: 580px) {
-    .hero-text {
-      font-size: 24px;
-      top: 150px; } }
+  top: 200px;
+}
+@media screen and (max-width: 768px) {
+  /* line 156, ../compass/sass/style.scss */
+  .hero-text {
+    font-size: 26px;
+  }
+}
+@media (max-width: 580px) {
+  /* line 156, ../compass/sass/style.scss */
+  .hero-text {
+    font-size: 24px;
+    top: 150px;
+  }
+}
 
+/* line 176, ../compass/sass/style.scss */
 .hero-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: 140px; }
-  @media screen and (max-width: 600px) {
-    .hero-logo {
-      top: 100px; } }
+  top: 140px;
+}
+@media screen and (max-width: 600px) {
+  /* line 176, ../compass/sass/style.scss */
+  .hero-logo {
+    top: 100px;
+  }
+}
 
 /* Program Section */
+/* line 187, ../compass/sass/style.scss */
 .bluePanel {
   background: #2895F6;
   border: 1px solid #979797;
   padding: 10px 0 10px 0;
   margin: 0;
   position: relative;
-  text-align: justify; }
-  .bluePanel h2, .bluePanel p, .bluePanel ul {
-    color: #FFFFFF;
-    margin: 15px 15px;
-    padding: 5px 15px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300; }
-  .bluePanel ul li {
-    list-style-type: none;
-    text-indent: 10px;
-    font-size: 16px; }
-  .bluePanel ul li:before {
-    content: "-";
-    position: relative;
-    left: -5px; }
-  .bluePanel input {
-    margin-left: 15px;
-    width: 50%;
-    display: inline;
-    margin: 0 0 0 15px; }
-  .bluePanel .btn-p1 {
-    width: 40%;
-    padding: 15px;
-    white-space: normal; }
-  .bluePanel img {
-    z-index: 1; }
+  text-align: justify;
+}
+/* line 195, ../compass/sass/style.scss */
+.bluePanel h2, .bluePanel p, .bluePanel ul {
+  color: #FFFFFF;
+  margin: 15px 15px;
+  padding: 5px 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+/* line 202, ../compass/sass/style.scss */
+.bluePanel ul li {
+  list-style-type: none;
+  text-indent: 10px;
+  font-size: 16px;
+}
+/* line 207, ../compass/sass/style.scss */
+.bluePanel ul li:before {
+  content: "-";
+  position: relative;
+  left: -5px;
+}
+/* line 212, ../compass/sass/style.scss */
+.bluePanel input {
+  margin-left: 15px;
+  width: 50%;
+  display: inline;
+  margin: 0 0 0 15px;
+}
+/* line 218, ../compass/sass/style.scss */
+.bluePanel .btn-p1 {
+  width: 40%;
+  padding: 15px;
+  white-space: normal;
+}
+/* line 223, ../compass/sass/style.scss */
+.bluePanel img {
+  z-index: 1;
+}
 
+/* line 226, ../compass/sass/style.scss */
 .button-contact.btn {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 /* Global panel section sep */
+/* line 232, ../compass/sass/style.scss */
 .blueSep {
   background: #2895F6;
   border: 1px solid #979797;
   padding: 40px 0 20px 0;
   margin: 15px 0;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
+/* line 238, ../compass/sass/style.scss */
+.blueSep h1, .blueSep h2 {
+  font-size: 32px;
+  color: #FFFFFF;
+}
+@media (max-width: 380px) {
+  /* line 238, ../compass/sass/style.scss */
   .blueSep h1, .blueSep h2 {
-    font-size: 32px;
-    color: #FFFFFF; }
-    @media (max-width: 380px) {
-      .blueSep h1, .blueSep h2 {
-        font-size: 24px; } }
+    font-size: 24px;
+  }
+}
 
 /* Global icon style */
+/* line 249, ../compass/sass/style.scss */
 .org {
   margin: 0 0 5px 0;
-  padding: 0 0 0 0; }
+  padding: 0 0 0 0;
+}
 
+/* line 254, ../compass/sass/style.scss */
 .org-thumbs img {
   display: inline;
-  padding: 10px 10px 0 0; }
-  .org-thumbs img img:last-child {
-    padding-right: 0; }
+  padding: 10px 10px 0 0;
+}
+/* line 258, ../compass/sass/style.scss */
+.org-thumbs img img:last-child {
+  padding-right: 0;
+}
 
 /* Benefits section */
+/* line 263, ../compass/sass/style.scss */
 .quotes p {
   padding: 0 30px 0 14px;
   font-size: 80%;
   line-height: 20px;
   text-align: justify;
-  color: #3bad7e; }
+  color: #3bad7e;
+}
 
 /*Performance sub-section */
+/* line 273, ../compass/sass/style.scss */
 .benDayVideo img, .benDayVideo a, .benDayVideo p {
   display: block;
   margin-top: 14px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
+/* line 280, ../compass/sass/style.scss */
 .videoMods {
   float: right;
-  display: inline; }
-  .videoMods .col-xs-4 img {
-    padding-left: auto;
-    padding-right: auto; }
-  .videoMods .col-xs-4:first-child img {
-    margin-left: 0;
-    padding-left: 0; }
-  .videoMods .col-xs-4:last-child img {
-    margin-right: 0;
-    padding-right: 0; }
+  display: inline;
+}
+/* line 283, ../compass/sass/style.scss */
+.videoMods .col-xs-4 img {
+  padding-left: auto;
+  padding-right: auto;
+}
+/* line 287, ../compass/sass/style.scss */
+.videoMods .col-xs-4:first-child img {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 291, ../compass/sass/style.scss */
+.videoMods .col-xs-4:last-child img {
+  margin-right: 0;
+  padding-right: 0;
+}
 
 /* Who we are section */
+/* line 298, ../compass/sass/style.scss */
 .plainHeader {
-  padding: 14px 20px; }
+  padding: 14px 20px;
+}
 
 /* Footer section styles */
+/* line 302, ../compass/sass/style.scss */
 footer {
   background-color: #2b2b2b;
   color: #dddddd;
   min-height: 100px;
   padding-top: 20px;
-  padding-bottom: 40px; }
-  footer .nav > li > a {
-    padding: 3px;
-    color: #f78103; }
-    footer .nav > li > a:hover, footer .nav > li > a:active, footer .nav > li > a:focus {
-      background-color: transparent;
-      color: #fff; }
+  padding-bottom: 40px;
+}
+/* line 308, ../compass/sass/style.scss */
+footer .nav > li > a {
+  padding: 3px;
+  color: #f78103;
+}
+/* line 311, ../compass/sass/style.scss */
+footer .nav > li > a:hover, footer .nav > li > a:active, footer .nav > li > a:focus {
+  background-color: transparent;
+  color: #fff;
+}
 
+/* line 318, ../compass/sass/style.scss */
 #mc_embed_signup {
   background: #fff;
   clear: left;
-  font: 14px lato-light, lato-regular, sans-serif; }
+  font: 14px lato-light, lato-regular, sans-serif;
+}
 
+/* line 322, ../compass/sass/style.scss */
 div.gsc-selected-option-container {
-  width: 90px !important; }
+  width: 90px !important;
+}
 
+/* line 325, ../compass/sass/style.scss */
 .search {
   margin-left: 15px;
   height: 26px;
-  font: 14px lato-light, lato-regular, sans-serif; }
-
-/*# sourceMappingURL=style.css.map */
+  font: 14px lato-light, lato-regular, sans-serif;
+}
