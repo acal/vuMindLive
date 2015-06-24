@@ -14,6 +14,10 @@
     <meta name="author" content="vuMind Inc" />
     <meta name="keywords" content="Mediation and mindfulness video program to enhance performance, reduce stress and pressure in everyday life." />
     
+	<meta name="twitter:url" content="http://vumind.com" />
+	<meta name="twitter:title" content="vuMind" />
+	<meta name="twitter:description" content="vuMind Mediation for the active life style.  Mindfulness in everyday life." />
+	<meta name="twitter:image" content="http://vumind.com/assets/images/vumind.jpg" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
@@ -24,9 +28,11 @@
     <script src="/javascripts/libs/html5shiv.min.js"></script>
     <script src="/javascripts/libs/css3-mediaqueries.js"></script>
     <![endif]-->
-    
+    <link rel="image_src" type="image/png" href="http://vumind.com/assets/images/logos/headerIcon_02.png" />
     <meta property="og:title" content="vuMind"/>
+    <meta property="og:site_name" content="vuMind"/>
     <meta property="og:type" content="website"/>
+    <meta property="og:description" content="vuMind Mediation for the active life style.  Mindfulness in everyday life through Accelerated Mind Performance" />
     <meta property="og:url" content="http://vumind.com"/>
-    <meta property="og:image" content="http://vumind.com/assets/images/logos/headerIcon_02.png"/>
+    <meta property="og:image" content="http://vumind.com/assets/images/vumind.jpg"/>
   </head>
