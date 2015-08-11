@@ -4,7 +4,7 @@
 <body data-spy="scroll" data-target="#myScrollspy">
     
     <?php 
-        require('partials/_tagManager.php')
+        include_once('partials/_tagManager.php')
     ?>
 
     <div class="container-fluid">    
