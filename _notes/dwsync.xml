@@ -10,4 +10,6 @@
 <file name="index.php" server="ftp.vumind.com//vumind/" local="130837780500384961" remote="130837744200000000" />
 <file name="searchResult.php" server="ftp.vumind.com//vumind/" local="130785076477430175" remote="130785040200000000" />
 <file name="robots.txt" server="ftp.vumind.com//vumind/" local="130837180199978067" remote="130837144200000000" />
+<file name=".gitignore" server="ftp.vumind.com//vumind/" local="130858540800000000" remote="130858540800000000" />
+<file name="gitignore.txt" server="ftp.vumind.com//vumind/" local="130858577179827202" remote="130858540800000000" />
 </dwsync>
